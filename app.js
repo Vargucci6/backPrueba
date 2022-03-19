@@ -391,8 +391,8 @@ app.delete("/deletePrest/:id", (req, res) => {
 
 app.put("/updatePrest/:id", (req, res) => {
   const { id } = req.params;
-  const { name, author } = req.body;
-  const sql = `UPDATE prestamos SET name = '${name}', author = '${author}' WHERE id_prestamo = '${id}'`;
+  const { fecha_ent, fecha_dev, id_libro } = req.body;
+  const sql = `UPDATE prestamos SET fecha_ent = '${fecha_ent}', fecha_dev = '${fecha_dev}', id_libro = '${id_libro}' WHERE id_prestamo = '${id}'`;
   connection.query(
     `SELECT * FROM prestamos WHERE id_prestamo = ${id}`,
     (error, results) => {

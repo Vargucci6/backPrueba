@@ -6,8 +6,8 @@ Este proyecto es creado con NODE JS, Express, MySQL & JWT
 
 ### Paso 1 
 
-Abriremos nuestro gestor de base de datos creamos una base de datos y la llamaremos `newinntech`.
-Importaremos el archivo llamado `bdni.sql` a nuestra base de datos.
+Abriremos nuestro gestor de base de datos creamos una base de datos y la llamaremos `prueba`.
+Importaremos el archivo `sql` a nuestra base de datos.
 
 ### Paso 2
 
@@ -15,5 +15,5 @@ Ejecutar `npm install` para instalar paquetes y/o recursos necesarios para corre
 
 ### Paso 3
 
-Ejecutar `nodemon` para un servidor de desarrollo. Navegue a `http://localhost:3050/`.
+Ejecutar `node .` para un servidor de desarrollo. Navegue a `http://localhost:3050/`.
 
